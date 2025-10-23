@@ -13,10 +13,45 @@
     <div class="w-screen h-screen bg-black text-white overflow-x-hidden">
         <div class="w-[100vw] h-[720px] bg-[url(assets/bg.jpg)] bg-cover">
             <div class="w-[100vw] h-[720px] bg-black/70 bg-cover">
-                <div class="mx-[60px] h-[60px] flex">
-                    <img src="assets/logo.svg" alt="netflix" class="w-[148px] pt-[24px] ml-[90px]">
-                </div>
+                <header>
+                    <div class="mx-[25px] h-[60px] flex items-center justify-between">
+                        <img src="assets/logo.svg" alt="netflix" class="w-[148px] pt-[24px] ml-[130px]">
+                        <div class="w-[354px] h-[38px] mt-[28px] flex  ">
+                            <div
+                                class="w-[124px] h-[32px] bg-black/30 border border-gray-600 border-[0.1px] rounded-sm flex gap-[5px]">
+                                <img src="assets/language.svg" alt="language" class="w-[18px]  ml-[8px]">
+                                <select name="languageselect" class="appearance-none">
+                                    <option lang="en" value="en-IN" label="English" class="text-black">English</option>
+                                    <option lang="hi" value="hi-IN" label="हिन्दी " class="text-black">हिन्दी</option>
+                                </select>
+                                <img src="assets/custom-arrow.svg" alt="arraw" class="w-[18px]">
+                            </div>
+                            <button
+                                class="bg-[#e50914] text-[0.875rem] w-[76px] h-[32px] ml-[12px] rounded-sm font-semibold">Sign
+                                In</button>
+                        </div>
 
+                    </div>
+                </header>
+                <div class="text-center mt-[185px]">
+                    <div>
+                    <div class="text-6xl font-bold">
+                        Unlimited movies, TV
+                    </div>
+                    <div class="text-6xl font-bold">
+                        shows and more
+                    </div>
+                    </div>
+                    <div class="text-xl mt-[20px] font-bold">Starts at ₹149. Cancel at any time.</div>
+                    <div class="mt-[24px] font-semibold">
+                        Ready to watch? Enter your email to create or restart your membership.
+                    </div>
+                    <div class="mt-[20px] flex items-center justify-center" >
+                        <input type="text" placeholder="Email address" class="w-[366px] h-[52px]  pl-[10px] placeholder-white/70 placeholder:text-[17px] bg-gray-400/9 rounded-md text-left border-[0.1px] border-white/50 placeholder:text-semibold">
+                        <button class="w-[200px] h-[52px] bg-[#e50914] font-semibold rounded-md ml-[6px] text-[25px]">Get Started <img src="assets/BigArrow.svg" alt="big-arraw" class="inline-block pb-[6px]"></button>
+                    </div>
+
+                </div>
             </div>
 
         </div>
